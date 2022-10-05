@@ -1,11 +1,19 @@
-Ejercicio 2.
-Se necesita obtener el promedio simple de un estudiante a partir
-de sus tres notas parciales N1, N2 y N3.
+Ejercicio 3.
+Se necesita elaborar un algoritmo que solicite el
+número de respuestas correctas, incorrectas y en blanco,
+correspondientes a postulantes, y muestre su puntaje final
+considerando que por cada respuesta correcta tendrá
+3 puntos, respuestas incorrectas tendrá -1 y respuestas en
+blanco tendrá 0.
 
 Datos de entrada:
-    Notas: N1, N2, N3
+Número de respuestas correctas = resp_ok
+Numero de respuestas incorrectas = resp_nok
+Número de respuestas en blanco = resp_null
 
 Proceso:
-    Promedio P = n1+n2+n3 / 3
+Calcular puntaje final y asignar a variable:
+punt_final = (resp_ok * 3) + (resp_nok * -1) + (resp_null * 0)
 
-Datos de salida
+Datos de salida:
+Imprimir punt_final
