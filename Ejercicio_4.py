@@ -1,6 +1,4 @@
 # Decoración de inicio
-from zmq import PEER
-
 
 print("-----------------------------------------------------------------------")
 print("Ejercicio 4: Calcular puntaje total del club ABC en el torneo apertura.")
